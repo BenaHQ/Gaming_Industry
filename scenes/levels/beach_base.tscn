@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/level/level.gd" id="1_level"]
+
+[node name="BeachBase" type="Node2D"]
+script = ExtResource("1_level")
+level_name = "La Base sulla Spiaggia - parla con la Tartaruga o sali sulla Manta"
+underwater = false
+next_scene = "res://scenes/levels/level_01_reef.tscn"
+top_color = Color(0.45, 0.75, 0.95, 1)
+bottom_color = Color(0.95, 0.85, 0.65, 1)
+map = "#.................................
+#.................................
+#.................................
+#.................................
+#.............o.o.................
+#............=====................
+#................................=
+#................................=
+#..S..c...M.........o.o.k........=
+============================..A..=
+==================================
+=================================="
